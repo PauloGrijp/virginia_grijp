@@ -9,7 +9,7 @@ export default function Intro() {
   const router = useRouter()
 
   function redirect() {
-    router.push('/services')
+    router.push('/Home')
   }
 
   return (

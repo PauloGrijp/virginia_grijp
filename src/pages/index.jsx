@@ -1,11 +1,11 @@
 
 import styles from '../../styles/Home.module.scss'
-import Intro from '../components/Intro'
+import IntroPage from '../components/IntroPage'
 
-export default function Home() {
+export default function Intro() {
   return (
     <div className={styles.container}>
-      <Intro></Intro>
+      <IntroPage></IntroPage>
     </div>
   )
 }
