@@ -1,0 +1,40 @@
+.header {
+  background-color: var(--primary);
+  color: var(--text-secondary);
+  padding: 1rem 5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  h1 {
+    font-weight: 300;
+  }
+}
+
+.navegation {
+  ul {
+    display: flex;
+
+    li {
+      transition: all 0.2s ease-in;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--secondary);
+        transform: scale(1.05);
+      }
+
+      & + li {
+        margin-left: 1.2rem;
+      }
+    }
+  }
+
+  .active {
+    color: var(--secondary);
+  }
+}
+
